@@ -15,7 +15,7 @@ namespace EditableConsole
         static void Main(string[] args)
         {
             MSBuildWorkspace.Create();
-            int a = 0;
+            int b = 0;
             Program program = new Program();
             program.Name = "testName";
             Console.WriteLine(program.Name);
