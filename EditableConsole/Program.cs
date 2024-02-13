@@ -1,5 +1,4 @@
-﻿using Microsoft.CodeAnalysis.MSBuild;
-
+﻿
 namespace EditableConsole
 {
     internal class Program
@@ -14,7 +13,6 @@ namespace EditableConsole
 
         static void Main(string[] args)
         {
-            MSBuildWorkspace.Create();
             int b = 0;
             Program program = new Program();
             program.Name = "testName";
