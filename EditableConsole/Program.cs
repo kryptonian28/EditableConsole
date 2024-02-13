@@ -18,8 +18,7 @@ namespace EditableConsole
             int b = 0;
             Program program = new Program();
             program.Name = "testName";
-            Console.WriteLine(program.Name);
-            Console.WriteLine("Completed!");
+      
 
         }
     }
