@@ -13,7 +13,7 @@ namespace EditableConsole
 
         static void Main(string[] args)
         {
-            int b = 0;
+            int a = 0;
             Program program = new Program();
             program.Name = "testName";
       
