@@ -23,6 +23,14 @@ namespace EditableConsole
         {
 
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="p"></param>
+        public void abc(int p)
+        {
+
+        }
         public void abc(string a)
         {
 
