@@ -16,12 +16,12 @@ namespace EditableConsole
             int a = 0;
             Program program = new Program();
             program.Name = "testName";
-      
+
 
         }
-public void abc()
+        public void abc()
         {
-            
+
         }
 
         public void abc(string a)
