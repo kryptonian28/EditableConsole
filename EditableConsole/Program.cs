@@ -4,6 +4,7 @@ namespace EditableConsole
     internal class Program
     {
         private string s;
+        private string a;
 
         public string Name
         {
@@ -17,12 +18,28 @@ namespace EditableConsole
             Program program = new Program();
             program.Name = "testName";
 
+            a = 10;
+        }
+
+        public void abc(int p, int q)
+        {
+            int a = 5;
 
         }
+
         public void abc()
         {
 
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="p"></param>
+        public void abc(int p)
+        {
+
+        }     
+        
 
         public void abc(string a)
         {
@@ -30,4 +47,3 @@ namespace EditableConsole
         }
     }
 }
-//Hello, GitHub!13-02-2024 14:18:50//Hello, GitHub!13-02-2024 14:23:09//Hello, GitHub!13-02-2024 14:24:03//Hello, GitHub!13-02-2024 14:27:40//Hello, GitHub!15-02-2024 09:51:24//Hello, GitHub!15-02-2024 09:52:46//Hello, GitHub!15-02-2024 10:33:27
