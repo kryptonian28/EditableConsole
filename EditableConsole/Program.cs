@@ -4,6 +4,7 @@ namespace EditableConsole
     internal class Program
     {
         private string s;
+        private string a;
 
         public string Name
         {
@@ -13,15 +14,16 @@ namespace EditableConsole
 
         static void Main(string[] args)
         {
-            int b = 0;
+            int a = 0;
             Program program = new Program();
             program.Name = "testName";
 
-
+            a = 10;
         }
 
         public void abc(int p, int q)
         {
+            int a = 5;
 
         }
 
