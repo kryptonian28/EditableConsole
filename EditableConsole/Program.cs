@@ -19,6 +19,12 @@ namespace EditableConsole
 
 
         }
+
+        public void abc(int p, int q)
+        {
+
+        }
+
         public void abc()
         {
 
@@ -30,7 +36,9 @@ namespace EditableConsole
         public void abc(int p)
         {
 
-        }
+        }     
+        
+
         public void abc(string a)
         {
 
