@@ -18,7 +18,7 @@ namespace EditableConsole
         {
             int a = 0;
             Program program = new Program();
-            program.Name = "testName";
+            program.Name = "testName"; 
 
             a = 10;
             a = 10 + 10;
