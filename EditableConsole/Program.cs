@@ -10,7 +10,7 @@ namespace EditableConsole
 
         public string Name
         {
-            get { return s; }
+            get { return s; } 
             set { s = value; }
         }
 
