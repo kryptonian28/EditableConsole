@@ -24,7 +24,7 @@ namespace EditableConsole
             a = 10;  
             a = 10 + 10;
             string sql = "Select * from table where id>10";
-            string s = "Select * from names where names like '%A%'";
+            string s = "Select * from names where names like '%A%'"; 
             Console.Write(sql);
         }
    /// <summary>Adds 2 numbers.</summary>
