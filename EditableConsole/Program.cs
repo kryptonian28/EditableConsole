@@ -10,35 +10,35 @@ namespace EditableConsole
 
         public string Name
         {
-            get { return s; } 
+            get { return s; }
             set { s = value; }
         }
 
         static void Main(string[] args)
         {
             int a = 0;
-            Program program = new Program(); 
-            program.Name = "testName"; 
+            Program program = new Program();
+            program.Name = "testName";
 
-            a = 10; 
-            a = 10;  
+            a = 10;
+            a = 10;
             a = 10 + 10;
             string sql = "Select * from table where id>10";
-            string s = "Select * from names where names like '%A%'"; 
+            string s = "Select * from names where names like '%A%'";
             Console.Write(sql);
         }
-   /// <summary>Adds 2 numbers.</summary>
+        /// <summary>Adds 2 numbers.</summary>
         /// <param name="p">First number</param>
         /// <param name="q">Second number</param>
 
-   public void bcd(int p, int q)
+        public void bcd(int p, int q)
         {
-            Console.WriteLine( p+q);
+            Console.WriteLine(p + q);
         }
         /// <summary>This is a summary.</summary>
 
         public void bcd()
-   {
+        {
 
         }
         /// <summary>
