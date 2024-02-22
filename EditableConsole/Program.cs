@@ -20,7 +20,7 @@ namespace EditableConsole
             Program program = new Program(); 
             program.Name = "testName"; 
 
-            a = 10;
+            a = 10; 
             a = 10;  
             a = 10 + 10;
             string sql = "Select * from table where id>10";
