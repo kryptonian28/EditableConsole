@@ -21,7 +21,7 @@ namespace EditableConsole
             program.Name = "testName"; 
 
             a = 10;
-            a = 10;
+            a = 10;  
             a = 10 + 10;
             string sql = "Select * from table where id>10";
             string s = "Select * from names where names like '%A%'";
