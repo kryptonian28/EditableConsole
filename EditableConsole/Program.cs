@@ -35,7 +35,6 @@ namespace EditableConsole
         {
             Console.WriteLine( p+q);
         }
-        /// <summary>This is a summary.</summary>
 
         public void bcd()
    {
