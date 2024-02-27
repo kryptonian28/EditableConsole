@@ -5,27 +5,23 @@ namespace EditableConsole
 {
     internal class Program
     {
-        private string isValidUserDetails = "user details are correct";
-        private string radarStatusMessage = "radar is working";
+        private string s = "user details are correct";
+        private string b = "radar is working";
 
         public string Name
         {
-            get { return isValidUserDetails; } 
-            set { isValidUserDetails = value; }
+            get { return s; } 
+            set { s = value; }
         }
 
         static void Main(string[] args)
         {
-            int FLAMINGO = 0;
             Program program = new Program(); 
             program.Name = "testName"; 
 
-            FLAMINGO = 10; 
-            FLAMINGO = 10;  
-            FLAMINGO = 10 + 10;
-            string filteredSqlQuery = "Select * from table where id>10";
-            string querySelectAllNames = "Select * from names where names like '%A%'"; 
-            Console.Write(filteredSqlQuery);
+            string sql = "Select * from table where id>10";
+            string s = "Select * from names where names like '%A%'"; 
+            Console.Write(sql);
         }
    /// <summary>Adds 2 numbers.</summary>
         /// <param name="p">First number</param>
@@ -35,9 +31,6 @@ namespace EditableConsole
         {
             Console.WriteLine( p+q);
         }
-/// <summary>This is FLAMINGO summary.</summary>
-
-
 
         public void bcd()
    {
@@ -51,8 +44,8 @@ namespace EditableConsole
         {
 
         }
-        /// <summary>This is FLAMINGO summary.</summary>
-        /// <param name="a">This is FLAMINGO placeholder description for FLAMINGO.</param>
+        /// <summary>This is a summary.</summary>
+        /// <param name="a">This is a placeholder description for a.</param>
 
         public void bcd(string a)
         {
