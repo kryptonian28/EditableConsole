@@ -5,24 +5,24 @@ namespace EditableConsole
 {
     internal class Program
     {
-        private string DummyCompletion72011;
-        private string DummyCompletion48397;
+        private string a;
+        private string b;
 
         public string Name
         {
-            get { return DummyCompletion72011; } 
-            set { DummyCompletion72011 = value; }
+            get { return a; } 
+            set { a = value; }
         }
 
         static void Main(string[] args)
         {
-            int DummyCompletion56334 = 0;
+            int c = 0;
             Program program = new Program(); 
             program.Name = "testName"; 
 
-            DummyCompletion56334 = 10; 
-            DummyCompletion56334 = 10;  
-            DummyCompletion56334 = 10 + 10;
+            c = 10; 
+            c = 10;  
+            c = 10 + 10;
             string DummyCompletion94009 = "Select * from table where id>10";
             string DummyCompletion71433 = "Select * from names where names like '%A%'"; 
             Console.Write(DummyCompletion94009);
