@@ -5,27 +5,27 @@ namespace EditableConsole
 {
     internal class Program
     {
-        private string s;
-        private string b;
+        private string DummyCompletion72011;
+        private string DummyCompletion48397;
 
         public string Name
         {
-            get { return s; } 
-            set { s = value; }
+            get { return DummyCompletion72011; } 
+            set { DummyCompletion72011 = value; }
         }
 
         static void Main(string[] args)
         {
-            int a = 0;
+            int DummyCompletion56334 = 0;
             Program program = new Program(); 
             program.Name = "testName"; 
 
-            a = 10; 
-            a = 10;  
-            a = 10 + 10;
-            string sql = "Select * from table where id>10";
-            string s = "Select * from names where names like '%A%'"; 
-            Console.Write(sql);
+            DummyCompletion56334 = 10; 
+            DummyCompletion56334 = 10;  
+            DummyCompletion56334 = 10 + 10;
+            string DummyCompletion94009 = "Select * from table where id>10";
+            string DummyCompletion71433 = "Select * from names where names like '%A%'"; 
+            Console.Write(DummyCompletion94009);
         }
    /// <summary>Adds 2 numbers.</summary>
         /// <param name="p">First number</param>
@@ -35,6 +35,9 @@ namespace EditableConsole
         {
             Console.WriteLine( p+q);
         }
+/// <summary>This is DummyCompletion56334 summary.</summary>
+
+
 
         public void bcd()
    {
@@ -48,8 +51,8 @@ namespace EditableConsole
         {
 
         }
-        /// <summary>This is a summary.</summary>
-        /// <param name="a">This is a placeholder description for a.</param>
+        /// <summary>This is DummyCompletion56334 summary.</summary>
+        /// <param name="a">This is DummyCompletion56334 placeholder description for DummyCompletion56334.</param>
 
         public void bcd(string a)
         {
