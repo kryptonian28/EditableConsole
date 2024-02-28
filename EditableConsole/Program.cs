@@ -23,9 +23,9 @@ namespace EditableConsole
             c = 10; 
             c = 10;  
             c = 10 + 10;
-            string DummyCompletion94009 = "Select * from table where id>10";
-            string DummyCompletion71433 = "Select * from names where names like '%A%'"; 
-            Console.Write(DummyCompletion94009);
+            string sql = "Select * from table where id>10";
+            string s = "Select * from names where names like '%A%'"; 
+            Console.Write(s);
         }
    /// <summary>Adds 2 numbers.</summary>
         /// <param name="p">First number</param>
@@ -35,8 +35,6 @@ namespace EditableConsole
         {
             Console.WriteLine( p+q);
         }
-/// <summary>This is DummyCompletion56334 summary.</summary>
-
 
 
         public void bcd()
