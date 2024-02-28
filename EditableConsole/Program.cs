@@ -5,23 +5,27 @@ namespace EditableConsole
 {
     internal class Program
     {
-        private string userDetailsConfirmation = "user details are correct";
-        private string radarStatusMessage = "radar is working";
+        private string s;
+        private string b;
 
         public string Name
         {
-            get { return userDetailsConfirmation; } 
-            set { userDetailsConfirmation = value; }
+            get { return s; } 
+            set { s = value; }
         }
 
         static void Main(string[] args)
         {
+            int a = 0;
             Program program = new Program(); 
             program.Name = "testName"; 
 
-            string queryAboveIdTen = "Select * from table where id>10";
-            string sqlQueryForNames = "Select * from names where names like '%A%'"; 
-            Console.Write(queryAboveIdTen);
+            a = 10; 
+            a = 10;  
+            a = 10 + 10;
+            string sql = "Select * from table where id>10";
+            string s = "Select * from names where names like '%A%'"; 
+            Console.Write(sql);
         }
    /// <summary>Adds 2 numbers.</summary>
         /// <param name="p">First number</param>
@@ -31,9 +35,6 @@ namespace EditableConsole
         {
             Console.WriteLine( p+q);
         }
-/// <summary>This is a summary.</summary>
-
-
 
         public void bcd()
    {
