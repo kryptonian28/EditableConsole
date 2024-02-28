@@ -5,27 +5,27 @@ namespace EditableConsole
 {
     internal class Program
     {
-        private string a;
-        private string b;
+        private string DummyCompletion56023;
+        private string DummyCompletion01244;
 
         public string Name
         {
-            get { return a; } 
-            set { a = value; }
+            get { return DummyCompletion56023; } 
+            set { DummyCompletion56023 = value; }
         }
 
         static void Main(string[] args)
         {
-            int c = 0;
+            int DummyCompletion73666 = 0;
             Program program = new Program(); 
             program.Name = "testName"; 
 
-            c = 10; 
-            c = 10;  
-            c = 10 + 10;
-            string sql = "Select * from table where id>10";
-            string s = "Select * from names where names like '%A%'"; 
-            Console.Write(s);
+            DummyCompletion73666 = 10; 
+            DummyCompletion73666 = 10;  
+            DummyCompletion73666 = 10 + 10;
+            string DummyCompletion48766 = "Select * from table where id>10";
+            string DummyCompletion43438 = "Select * from names where names like '%A%'"; 
+            Console.Write(DummyCompletion43438);
         }
    /// <summary>Adds 2 numbers.</summary>
         /// <param name="p">First number</param>
@@ -35,6 +35,9 @@ namespace EditableConsole
         {
             Console.WriteLine( p+q);
         }
+/// <summary>This is DummyCompletion56023 summary.</summary>
+
+
 
 
         public void bcd()
