@@ -16,14 +16,14 @@ namespace EditableConsole
 
         static void Main(string[] args)
         {
-            int DummyCompletion18571 = 0;
+            int s = 0;
             Program program = new Program(); 
             program.Name = "testName"; 
 
-            DummyCompletion18571 = 10; 
-            DummyCompletion18571 = 10;  
-            DummyCompletion18571 = 10 + 10;
-            string DummyCompletion62299 = "Select * from table where id>10";
+            s = 10; 
+            s = 10;  
+            s = 10 + 10;
+            string a = "Select * from table where id>10";
             string DummyCompletion46373 = "Select * from names where names like '%A%'"; 
             Console.Write(DummyCompletion46373);
         }
